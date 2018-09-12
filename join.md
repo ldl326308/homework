@@ -1,6 +1,6 @@
 # homework 0912
 
-###代码如下:
+代码如下:
 ``` 
 select p.cityName 省,s.cityName 市,null from s_provinces x
 	join s_provinces s on x.parentId = s.id
