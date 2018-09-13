@@ -1,6 +1,6 @@
 # homework 0912
 
-代码如下:
+###代码如下:
 ``` 
 select p.cityName 省,s.cityName 市,null from s_provinces x
 	join s_provinces s on x.parentId = s.id
@@ -22,8 +22,7 @@ select p.cityName 省,s.cityName 市,x.cityName 县 from s_provinces x
             每条列的顺序也要相同
             
 
-查询广东省的市、县思路：
-
+##查询广东省的市、县思路：
     1、查询广东省下的市，inner join 省级连接市级，市级连接县（区）级，where条件
         筛选出省级表的cityName 等于 “广东省”
              
